@@ -24,17 +24,17 @@
         android:layout_height="0dp"
         android:layout_marginEnd="18dp"
         android:text="Toast"
-        app:layout_constraintBottom_toBottomOf="@+id/button3"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintBottom_toBottomOf="@+id/btnIntent"
+        app:layout_constraintEnd_toStartOf="@+id/btnIntent"
         app:layout_constraintStart_toEndOf="@+id/etActtivity"
-        app:layout_constraintTop_toTopOf="@+id/button3" />
+        app:layout_constraintTop_toTopOf="@+id/btnIntent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnIntent"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginEnd="12dp"
-        android:text="Button"
+        android:text="Intent"
         app:layout_constraintBottom_toBottomOf="@+id/button4"
         app:layout_constraintEnd_toStartOf="@+id/button4"
         app:layout_constraintStart_toEndOf="@+id/toast2"
@@ -50,7 +50,7 @@
         android:text="Button"
         app:layout_constraintBottom_toTopOf="@+id/button7"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintStart_toEndOf="@+id/btnIntent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button

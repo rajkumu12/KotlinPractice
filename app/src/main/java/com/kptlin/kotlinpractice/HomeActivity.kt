@@ -4,9 +4,10 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.kptlin.kotlinpractice.com.intent.example.ExplicitIntentEx
+import kotlinx.android.synthetic.main.activity_home.*
 
 class HomeActivity : AppCompatActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
@@ -22,6 +23,11 @@ class HomeActivity : AppCompatActivity() {
         btn2.setOnClickListener(){
             intent= Intent(this,CustomToast::class.java)
             startActivity(intent)
+        }
+        btnIntent.setOnClickListener(){
+            intent=Intent(applicationContext,ExplicitIntentEx::class.java)
+            startActivity(intent)
+
         }
     }
 }

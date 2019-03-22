@@ -17,7 +17,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CustomToast"></activity>
+        <activity android:name=".CustomToast" />
+        <activity android:name=".com.intent.example.ExplicitIntentEx" />
+        <activity android:name=".com.intent.example.SecondActivity" />
+        <activity android:name=".com.intent.example.ImplicitIntentEx"></activity>
     </application>
 
 </manifest>
