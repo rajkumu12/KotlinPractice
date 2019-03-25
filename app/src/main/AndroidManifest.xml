@@ -20,7 +20,9 @@
         <activity android:name=".CustomToast" />
         <activity android:name=".com.intent.example.ExplicitIntentEx" />
         <activity android:name=".com.intent.example.SecondActivity" />
-        <activity android:name=".com.intent.example.ImplicitIntentEx"></activity>
+        <activity android:name=".com.intent.example.ImplicitIntentEx" />
+        <activity android:name=".ListViewExample.ListViewActivity" />
+        <activity android:name=".AlertDialog.AltDialogExample"></activity>
     </application>
 
 </manifest>
